@@ -15,7 +15,7 @@ if (!$config) {
 }
 
 switch ($config) {
-  'bionic' {
+  'Noble Numbat' {
     $distro = 'ubuntu'
     $generation = 2
     $imgvers = "24.04"
@@ -40,9 +40,9 @@ $zwitch = 'K8s' # private or public switch name
 $natnet = 'KubeNatNet' # private net nat net name (privnet only)
 $adapter = 'Wi-Fi' # public net adapter name (pubnet only)
 
-$cpus = 2
-$ram = '2GB'
-$hdd = '20GB'
+$cpus = 4
+$ram = '8GB'
+$hdd = '100GB'
 
 $cidr = switch ($nettype) {
   'private' { '10.10.0' }
