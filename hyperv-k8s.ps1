@@ -18,7 +18,7 @@ switch ($config) {
   'bionic' {
     $distro = 'ubuntu'
     $generation = 2
-    $imgvers = "18.04"
+    $imgvers = "24.04"
     $imagebase = "https://cloud-images.ubuntu.com/releases/server/$imgvers/release"
     $sha256file = 'SHA256SUMS'
     $image = "ubuntu-$imgvers-server-cloudimg-amd64.img"
@@ -55,12 +55,12 @@ $macs = @(
   '02FBB5136210', # node2
   '02FE66735ED6', # node3
   '021349558DC7', # node4
-  '0288F589DCC3', # node5
-  '02EF3D3E1283', # node6
-  '0225849ADCBB', # node7
-  '02E0B0026505', # node8
-  '02069FBFC2B0', # node9
-  '02F7E0C904D0' # node10
+  #'0288F589DCC3', # node5
+  #'02EF3D3E1283', # node6
+  #'0225849ADCBB', # node7
+  #'02E0B0026505', # node8
+  #'02069FBFC2B0', # node9
+  #'02F7E0C904D0' # node10
 )
 
 # https://packages.cloud.google.com/yum/repos/kubernetes-el7-x86_64/repodata/filelists.xml
